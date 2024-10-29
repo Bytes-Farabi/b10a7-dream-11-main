@@ -1,7 +1,9 @@
+import Available from "../Available/Available";
 import Banner from "../Banner/Banner";
 import Header from "../Header/Header";
+import Selected from "../Selected/Selected";
 
-const Home = () => {
+const Home = ({ handleActiveTab, isActive }) => {
     return (
         <div>
             <Header></Header>
@@ -12,18 +14,34 @@ const Home = () => {
                 </div>
                 <div>
 
-                    <div className="inline-flex items-center border rounded-full overflow-hidden">
-                        {/* Available Button */}
-                        <div className="px-4 py-2 font-semibold bg-[#E7FE29] text-black">
+                    {/* <div className="inline-flex items-center border rounded-full overflow-hidden">
+                       
+                        <div onClick={()=>handleActiveTab('available')} className="btn rounded-none px-4 py-2 font-semibold bg-[#E7FE29] text-black">
                             Available
                         </div>
 
-                        {/* Selected Button */}
-                        <div className="px-4 py-2 font-semibold text-gray-500">
+                        
+                        <div onClick={()=>handleActiveTab('Selected')}  className="btn rounded-none px-4 py-2 font-semibold text-gray-500">
                             Selected (0)
                         </div>
+                    </div> */}
+
+                    <div className="inline-flex items-center border rounded-full overflow-hidden">
+
+                        <button onClick={() => handleActiveTab('available')} className={`${isActive.available ? "btn rounded-none px-4 py-2 font-semibold bg-[#E7FE29] text-black":"btn"}`}>
+                            Available
+                        </button>
+
+
+                        <button onClick={() => handleActiveTab('Selected')} className={`${isActive.available? "btn ": 'btn rounded-none px-4 py-2 font-semibold bg-[#E7FE29] text-black'}`}>
+                            Selected (0)
+                        </button>
                     </div>
-                    
+
+                    {
+                        isActive.available? <Available></Available>: <Selected></Selected>
+                    }
+
                 </div>
             </div>
         </div>
@@ -31,3 +49,6 @@ const Home = () => {
 };
 
 export default Home;
+
+
+// btn rounded-none px-4 py-2 font-semibold bg-[#E7FE29] text-black
