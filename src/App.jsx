@@ -1,13 +1,11 @@
-import Banner from './AllComponents/Banner/Banner'
-import Header from './AllComponents/Header/Header'
+import Home from './AllComponents/Home/Home'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <Header></Header>
-      <Banner></Banner>
+      <Home></Home>
     </>
   )
 }
