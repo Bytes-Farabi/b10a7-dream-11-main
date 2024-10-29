@@ -1,0 +1,124 @@
+{
+  "players": [
+      {
+          "id": 1,
+          "name": "Glenn Phillips",
+          "country": "New Zealand",
+          "role": "All-Rounder",
+          "rating": "Left-Hand-Bat",
+          "battingStyle": "Left-Hand-Bat",
+          "price": 9,
+          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+      },
+      {
+          "id": 2,
+          "name": "Chris Pine",
+          "country": "Australia",
+          "role": "Batsman",
+          "rating": "Right-Hand-Bat",
+          "battingStyle": "Right-Hand-Bat",
+          "price": 8,
+          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+      },
+      {
+          "id": 3,
+          "name": "Moeen Malik",
+          "country": "Pakistan",
+          "role": "All-Rounder",
+          "rating": "Right-Hand-Bat",
+          "battingStyle": "Right-Hand-Bat",
+          "price": 9,
+          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+      },
+      {
+          "id": 4,
+          "name": "Ben Stokes",
+          "country": "England",
+          "role": "All-Rounder",
+          "rating": "Left-Hand-Bat",
+          "battingStyle": "Left-Hand-Bat",
+          "price": 10,
+          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+      },
+      {
+          "id": 5,
+          "name": "Temba Bavuma",
+          "country": "South Africa",
+          "role": "Batsman",
+          "rating": "Right-Hand-Bat",
+          "battingStyle": "Right-Hand-Bat",
+          "price": 7,
+          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+      },
+      {
+          "id": 6,
+          "name": "David Warner",
+          "country": "Australia",
+          "role": "Batsman",
+          "rating": "Left-Hand-Bat",
+          "battingStyle": "Left-Hand-Bat",
+          "price": 9,
+          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+      },
+      {
+          "id": 7,
+          "name": "Babar Azam",
+          "country": "Pakistan",
+          "role": "Batsman",
+          "rating": "Right-Hand-Bat",
+          "battingStyle": "Right-Hand-Bat",
+          "price": 9,
+          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+      },
+      {
+          "id": 8,
+          "name": "Joe Root",
+          "country": "England",
+          "role": "Batsman",
+          "rating": "Right-Hand-Bat",
+          "battingStyle": "Right-Hand-Bat",
+          "price": 8,
+          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+      },
+      {
+          "id": 9,
+          "name": "Shakib Al Hasan",
+          "country": "Bangladesh",
+          "role": "All-Rounder",
+          "rating": "Left-Hand-Bat",
+          "battingStyle": "Left-Hand-Bat",
+          "price": 9,
+          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+      },
+      {
+          "id": 10,
+          "name": "Kane Williamson",
+          "country": "New Zealand",
+          "role": "Batsman",
+          "rating": "Right-Hand-Bat",
+          "battingStyle": "Right-Hand-Bat",
+          "price": 8,
+          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+      },
+      {
+          "id": 11,
+          "name": "Steve Smith",
+          "country": "Australia",
+          "role": "Batsman",
+          "rating": "Right-Hand-Bat",
+          "battingStyle": "Right-Hand-Bat",
+          "price": 9,
+          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+      },
+      {
+          "id": 12,
+          "name": "Jos Buttler",
+          "country": "England",
+          "role": "Batsman",
+          "rating": "Right-Hand-Bat",
+          "battingStyle": "Right-Hand-Bat",
+          "price": 9,
+          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+      }
+  ]
+}
