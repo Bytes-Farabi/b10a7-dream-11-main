@@ -1,8 +1,22 @@
-# React + Vite
+#  Select your Xi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Description**
+
+It's a project for creating your own team with free credits. 
+
+**Technologies Used**
+
+* React
+* vite
+* Daiseui
+* Html
+* Css
+* Tailwind
+
+**Key Features**
+
+* Player Selection: Users can browse and select cricket players from a database of 12 players.
+* Player Acquisition: Users can "buy" players to add them to their virtual team, subject to certain conditions or limitations (e.g., Credits).
+* Team Management: Users can manage their selected team, including removing players as needed.
