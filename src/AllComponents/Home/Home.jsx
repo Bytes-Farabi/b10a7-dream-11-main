@@ -36,7 +36,7 @@ const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedP
 
             {/* shadow banner */}
 
-            <div className="border border-[#c9111115] mt-40 rounded-lg">
+            <div className="shadow-banner border border-[#c9111115] mt-40 rounded-lg">
                 <div>
                     <div className="flex items-center justify-center" style={{
                         backgroundImage: `url('/assets/bg-shadow.png')`,
@@ -68,6 +68,55 @@ const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedP
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="footer-section">
+                <footer className="bg-gray-900 text-white py-10 pt-56">
+                    <div className="container mx-auto px-20 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center sm:text-left">
+
+                        {/* About Us Section */}
+                        <div>
+                            <h3 className="text-lg font-semibold mb-3">About Us</h3>
+                            <p className="text-gray-400">
+                                We are a passionate team dedicated to providing the best services to our customers.
+                            </p>
+                        </div>
+
+                        {/* Quick Links Section */}
+                        <div>
+                            <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
+                            <ul className="space-y-2">
+                                <li><a href="#" className="text-gray-400 hover:text-white">Home</a></li>
+                                <li><a href="#" className="text-gray-400 hover:text-white">Services</a></li>
+                                <li><a href="#" className="text-gray-400 hover:text-white">About</a></li>
+                                <li><a href="#" className="text-gray-400 hover:text-white">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        {/* Subscribe Section */}
+                        <div>
+                            <h3 className="text-lg font-semibold mb-3">Subscribe</h3>
+                            <p className="text-gray-400 mb-4">
+                                Subscribe to our newsletter for the latest updates.
+                            </p>
+                            <div className="flex justify-center sm:justify-start">
+                                <input
+                                    type="email"
+                                    placeholder="Enter your email"
+                                    className="p-2 rounded-l-md focus:outline-none"
+                                />
+                                <button className="bg-gradient-to-r from-yellow-400 to-pink-500 text-white font-semibold px-4 rounded-r-md hover:opacity-90 transition-opacity duration-300">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Bottom Copyright Section */}
+                    <div className="mt-10 text-center text-gray-400 border-t border-gray-700 pt-6">
+                        <p>&copy;2024 Your Company. All Rights Reserved.</p>
+                    </div>
+                </footer>
             </div>
 
         </div>
