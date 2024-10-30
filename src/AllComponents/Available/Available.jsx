@@ -1,7 +1,7 @@
-import { data } from "autoprefixer";
 import { useEffect, useState } from "react";
 import SinglePlayer from "../Player/SinglePlayer";
 
+// eslint-disable-next-line react/prop-types
 const Available = ({handleSelectedPlayer}) => {
 
     const [players, setPlayers] = useState([])

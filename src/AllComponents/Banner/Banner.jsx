@@ -1,4 +1,5 @@
 import bannerLogo from '../../../public/assets/banner-main.png'
+// eslint-disable-next-line react/prop-types
 const Banner = ({handleCredit}) => {
   return (
     <div>

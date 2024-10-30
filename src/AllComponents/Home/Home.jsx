@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Header from "../Header/Header";
 import Selected from "../Selected/Selected";
 
+// eslint-disable-next-line react/prop-types
 const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedPlayer, selectedPlayer, handleDelete }) => {
     return (
         <div>
@@ -28,6 +29,7 @@ const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedP
             </div>
             <div>
                 {
+                    // eslint-disable-next-line react/prop-types
                     isActive.available ? <Available handleSelectedPlayer={handleSelectedPlayer} selectedPlayer={selectedPlayer}></Available> : <Selected selectedPlayer={selectedPlayer} key={selectedPlayer.id} handleDelete={handleDelete}></Selected>
                 }
             </div>
@@ -69,6 +71,3 @@ const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedP
 };
 
 export default Home;
-
-
-// btn rounded-none px-4 py-2 font-semibold bg-[#E7FE29] text-black
