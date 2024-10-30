@@ -3,7 +3,7 @@ import Banner from "../Banner/Banner";
 import Header from "../Header/Header";
 import Selected from "../Selected/Selected";
 
-const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedPlayer }) => {
+const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedPlayer, selectedPlayer }) => {
     return (
         <div>
             <Header credit={credit}></Header>
@@ -20,15 +20,15 @@ const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedP
                         </button>
 
 
-                        <button onClick={() => handleActiveTab('Selected')} className={`${isActive.available ? "btn " : 'btn rounded-none px-4 py-2 font-semibold bg-[#E7FE29] text-black'}`}>
-                            Selected (0)
+                        <button onClick={() => handleActiveTab('Selected')} className={`${isActive.available ? "btn " : 'btn rounded-none px-4 py-2 font-semibold bg-[#E7FE29] text-black'}`}>Selected 
+                            ({selectedPlayer.length})
                         </button>
                     </div>
                 </div>
             </div>
             <div>
                 {
-                    isActive.available ? <Available handleSelectedPlayer={handleSelectedPlayer}></Available> : <Selected></Selected>
+                    isActive.available ? <Available handleSelectedPlayer={handleSelectedPlayer} selectedPlayer={selectedPlayer}></Available> : <Selected></Selected>
                 }
             </div>
 

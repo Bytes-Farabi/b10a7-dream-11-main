@@ -47,9 +47,11 @@ function App() {
     }
   }
 
+  console.log(selectedPlayer);
+
   return (
     <>
-      <Home handleActiveTab={handleActiveTab} isActive={isActive} handleCredit={handleCredit} credit={credit} handleSelectedPlayer={handleSelectedPlayer}></Home>
+      <Home handleActiveTab={handleActiveTab} isActive={isActive} handleCredit={handleCredit} credit={credit} handleSelectedPlayer={handleSelectedPlayer} selectedPlayer={selectedPlayer}></Home>
     </>
   )
 }
