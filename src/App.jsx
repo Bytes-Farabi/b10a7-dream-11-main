@@ -4,12 +4,12 @@ import './App.css'
 
 function App() {
 
-  const [credit, setCredit] = useState(500)
+  const [credit, setCredit] = useState(0)
 
   const [selectedPlayer, setSelectedPlayer] = useState([])
 
   const handleCredit = () =>{
-    console.log('credit clicked');
+    setCredit(prevCredit => prevCredit+10)
   }
 
   
@@ -35,7 +35,6 @@ function App() {
   }
 
   const handleSelectedPlayer = (player) =>{
-    console.log(player);
     const isExist = selectedPlayer.find((p) => p.id == player.id)
 
     if (isExist) {

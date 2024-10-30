@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
 const Selected = ({ selectedPlayer, handleDelete}) => {
-    console.log(handleDelete);
     return (
         <div>
             {selectedPlayer.map((plr) => (
