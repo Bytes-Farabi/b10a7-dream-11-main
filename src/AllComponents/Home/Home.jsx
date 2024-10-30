@@ -27,7 +27,7 @@ const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedP
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="w-[90%] mx-auto mb-80">
                 {
                     // eslint-disable-next-line react/prop-types
                     isActive.available ? <Available handleSelectedPlayer={handleSelectedPlayer} selectedPlayer={selectedPlayer}></Available> : <Selected selectedPlayer={selectedPlayer} key={selectedPlayer.id} handleDelete={handleDelete}></Selected>
@@ -36,7 +36,8 @@ const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedP
 
             {/* shadow banner */}
 
-            <div className="shadow-banner border border-[#c9111115] mt-40 rounded-lg">
+            <div className=" mx-0 z-30 flex justify-center">
+            <div className="shadow-banner border border-[#bda9a960] -mt-48 rounded-lg w-[90%] mx-auto absolute z-20 max-w-[60%] m-auto">
                 <div>
                     <div className="flex items-center justify-center" style={{
                         backgroundImage: `url('/assets/bg-shadow.png')`,
@@ -47,7 +48,7 @@ const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedP
                         margin: 30,
                         border: '1px solid gray'
                     }}>
-                        <div className="rounded-lg shadow-lg p-8 m-10 mx-4 sm:mx-0">
+                        <div className="rounded-lg  p-8 m-10 mx-4 sm:mx-0">
                             <h2 className="text-2xl font-semibold text-center mb-2">
                                 Subscribe to our Newsletter
                             </h2>
@@ -69,8 +70,9 @@ const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedP
                     </div>
                 </div>
             </div>
+            </div>
 
-            <div className="footer-section">
+            <div className="footer-section relative z-10">
                 <footer className="bg-gray-900 text-white py-10 pt-56">
                     <div className="container mx-auto px-20 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center sm:text-left">
 
