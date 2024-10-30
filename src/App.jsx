@@ -1,8 +1,12 @@
 import { useState } from 'react'
 import Home from './AllComponents/Home/Home'
 import './App.css'
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+
+  const notify = () =>toast('Already Selected')
 
   const [credit, setCredit] = useState(0)
 
@@ -40,7 +44,7 @@ function App() {
     const isExist = selectedPlayer.find((p) => p.id == player.id)
 
     if (isExist) {
-      return alert('exist')
+      return notify()
     }
     {
       handledecreasePrice(player.price)
@@ -59,6 +63,7 @@ function App() {
   return (
     <>
       <Home handleActiveTab={handleActiveTab} isActive={isActive} handleCredit={handleCredit} credit={credit} handleSelectedPlayer={handleSelectedPlayer} selectedPlayer={selectedPlayer} handleDelete={handleDelete}></Home>
+      <ToastContainer></ToastContainer>
     </>
   )
 }
