@@ -6,7 +6,9 @@ import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
 
-  const notify = () =>toast('Already Selected')
+  const notifyDuplicate = () =>toast('Already Selected')
+
+  const notifyInsufficientBalance = () => toast('Do not have sufficient balance')
 
   const [credit, setCredit] = useState(0)
 
@@ -44,7 +46,10 @@ function App() {
     const isExist = selectedPlayer.find((p) => p.id == player.id)
 
     if (isExist) {
-      return notify()
+      return notifyDuplicate()
+    }
+    if(credit < player.price){
+      return notifyInsufficientBalance()
     }
     {
       handledecreasePrice(player.price)
