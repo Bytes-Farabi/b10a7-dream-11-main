@@ -1,5 +1,4 @@
 const Header = ({credit}) => {
-  console.log(credit);
   return (
     <div>
       <div className="navbar bg-base-100 flex items-center">

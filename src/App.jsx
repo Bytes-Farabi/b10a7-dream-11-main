@@ -12,7 +12,9 @@ function App() {
     setCredit(prevCredit => prevCredit+10)
   }
 
-  
+  const handledecreasePrice = (decreasePrice) =>{
+    setCredit(credit - decreasePrice)
+  }
 
   const [isActive, setIsActive] = useState({
     available: true,
@@ -41,6 +43,7 @@ function App() {
       return alert('exist')
     }
     {
+      handledecreasePrice(player.price)
       const newPlayer = [...selectedPlayer, player]
       setSelectedPlayer(newPlayer)
     }
