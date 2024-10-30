@@ -2,7 +2,7 @@ import { data } from "autoprefixer";
 import { useEffect, useState } from "react";
 import SinglePlayer from "../Player/SinglePlayer";
 
-const Available = () => {
+const Available = ({handleSelectedPlayer}) => {
 
     const [players, setPlayers] = useState([])
 
@@ -16,7 +16,7 @@ const Available = () => {
         <div>
             <div className="grid grid-cols-3 gap-5 mt-10">
             {
-                players.map((p) => <SinglePlayer player={p} key={p.id}></SinglePlayer>)
+                players.map((p) => <SinglePlayer player={p} key={p.id} handleSelectedPlayer={handleSelectedPlayer}></SinglePlayer>)
             }
             </div>
         </div>

@@ -6,9 +6,13 @@ function App() {
 
   const [credit, setCredit] = useState(500)
 
+  const [selectedPlayer, setSelectedPlayer] = useState([])
+
   const handleCredit = () =>{
     console.log('credit clicked');
   }
+
+  
 
   const [isActive, setIsActive] = useState({
     available: true,
@@ -30,9 +34,13 @@ function App() {
     }
   }
 
+  const handleSelectedPlayer = (player) =>{
+    console.log(player);
+  }
+
   return (
     <>
-      <Home handleActiveTab={handleActiveTab} isActive={isActive} handleCredit={handleCredit} credit={credit}></Home>
+      <Home handleActiveTab={handleActiveTab} isActive={isActive} handleCredit={handleCredit} credit={credit} handleSelectedPlayer={handleSelectedPlayer}></Home>
     </>
   )
 }

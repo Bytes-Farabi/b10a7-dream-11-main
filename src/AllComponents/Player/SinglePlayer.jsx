@@ -1,4 +1,4 @@
-const SinglePlayer = ({ player }) => {
+const SinglePlayer = ({ player, handleSelectedPlayer }) => {
 
   // const {id} = player
 
@@ -34,7 +34,7 @@ const SinglePlayer = ({ player }) => {
             <h4 className="text-gray-800 font-medium">Price</h4>
             <p className="text-sm text-gray-600">{player.price}</p>
           </div>
-          <button className="w-full text-center text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-md">
+          <button onClick={()=>handleSelectedPlayer(player)} className="w-full text-center text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-md">
             Choose Player
           </button>
         </div>
