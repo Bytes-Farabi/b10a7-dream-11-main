@@ -7,13 +7,14 @@ const Selected = ({ selectedPlayer, handleDelete}) => {
                 // eslint-disable-next-line react/jsx-key
                 <div className="flex justify-between items-center p-4 bg-white border border-gray-200 rounded-lg shadow-sm mt-10">
                     <div className="flex items-center">
-                        <div className="w-12 h-12 rounded-md mr-4">
-                        <img src={plr.imageUrl} alt="imageUrl" />
+                        <div className="w-16 h-16 rounded-md mr-4">
+                        <img src={plr.imageUrl} alt="imageUrl" className="rounded-md"/>
                         </div>
                    
                         <div className="text-left">
-                        <h3 className="text-sm font-semibold text-gray-900">{plr.name}</h3>
-                        <p className="text-xs text-gray-500">{plr.rating}</p>
+                        <h3 className="text-[15] font-semibold text-gray-900">{plr.name}</h3>
+                        <p className="text-[13px] text-gray-500">{plr.rating}</p>
+                        <p className="text-[13px] text-gray-500">Price: {plr.price}</p>
                         </div>
                     </div>
                     <button onClick={()=>handleDelete(plr)} className="text-red-500 hover:text-red-700">
