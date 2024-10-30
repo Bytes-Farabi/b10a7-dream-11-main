@@ -47,10 +47,16 @@ function App() {
     }
   }
 
+  const handleDelete = (plr) =>{
+    const playerId = plr.id
+    const newPlayers = selectedPlayer.filter((p) =>p.id != playerId)
+    setSelectedPlayer(newPlayers)
+  }
+
 
   return (
     <>
-      <Home handleActiveTab={handleActiveTab} isActive={isActive} handleCredit={handleCredit} credit={credit} handleSelectedPlayer={handleSelectedPlayer} selectedPlayer={selectedPlayer}></Home>
+      <Home handleActiveTab={handleActiveTab} isActive={isActive} handleCredit={handleCredit} credit={credit} handleSelectedPlayer={handleSelectedPlayer} selectedPlayer={selectedPlayer} handleDelete={handleDelete}></Home>
     </>
   )
 }

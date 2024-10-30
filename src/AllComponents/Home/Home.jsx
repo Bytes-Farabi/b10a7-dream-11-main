@@ -3,7 +3,7 @@ import Banner from "../Banner/Banner";
 import Header from "../Header/Header";
 import Selected from "../Selected/Selected";
 
-const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedPlayer, selectedPlayer }) => {
+const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedPlayer, selectedPlayer, handleDelete }) => {
     return (
         <div>
             <Header credit={credit}></Header>
@@ -28,7 +28,7 @@ const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedP
             </div>
             <div>
                 {
-                    isActive.available ? <Available handleSelectedPlayer={handleSelectedPlayer} selectedPlayer={selectedPlayer}></Available> : <Selected selectedPlayer={selectedPlayer} key={selectedPlayer.id}></Selected>
+                    isActive.available ? <Available handleSelectedPlayer={handleSelectedPlayer} selectedPlayer={selectedPlayer}></Available> : <Selected selectedPlayer={selectedPlayer} key={selectedPlayer.id} handleDelete={handleDelete}></Selected>
                 }
             </div>
 
