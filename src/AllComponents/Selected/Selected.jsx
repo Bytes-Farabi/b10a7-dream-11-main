@@ -26,6 +26,9 @@ const Selected = ({ selectedPlayer, handleDelete}) => {
                     </button>
                 </div>
             ))}
+            <div>
+                <button className="mt-10 btn bg-[#E7FE29] flex justify-start">Add More Player</button>
+            </div>
         </div>
     );
 };
