@@ -5,7 +5,7 @@ const SinglePlayer = ({ player, handleSelectedPlayer }) => {
   return (
     <div>
 
-      <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow-lg p-4">
+      <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow-lg p-4 mx-auto">
         <img
           className="rounded-t-lg w-full h-40 object-cover"
           src={player.imageUrl}

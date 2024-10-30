@@ -47,7 +47,6 @@ function App() {
     }
   }
 
-  console.log(selectedPlayer);
 
   return (
     <>

@@ -28,7 +28,7 @@ const Home = ({ handleActiveTab, isActive, handleCredit, credit, handleSelectedP
             </div>
             <div>
                 {
-                    isActive.available ? <Available handleSelectedPlayer={handleSelectedPlayer} selectedPlayer={selectedPlayer}></Available> : <Selected></Selected>
+                    isActive.available ? <Available handleSelectedPlayer={handleSelectedPlayer} selectedPlayer={selectedPlayer}></Available> : <Selected selectedPlayer={selectedPlayer} key={selectedPlayer.id}></Selected>
                 }
             </div>
 
