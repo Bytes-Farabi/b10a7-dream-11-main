@@ -36,6 +36,15 @@ function App() {
 
   const handleSelectedPlayer = (player) =>{
     console.log(player);
+    const isExist = selectedPlayer.find((p) => p.id == player.id)
+
+    if (isExist) {
+      return alert('exist')
+    }
+    {
+      const newPlayer = [...selectedPlayer, player]
+      setSelectedPlayer(newPlayer)
+    }
   }
 
   return (
