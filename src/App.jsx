@@ -51,6 +51,9 @@ function App() {
     if(credit < player.price){
       return notifyInsufficientBalance()
     }
+    if (selectedPlayer.length === 6) {
+      return toast.error('You cannot select more than 6 players');
+    }
     {
       handledecreasePrice(player.price)
       const newPlayer = [...selectedPlayer, player]
