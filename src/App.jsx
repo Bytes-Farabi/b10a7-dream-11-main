@@ -4,6 +4,12 @@ import './App.css'
 
 function App() {
 
+  const [credit, setCredit] = useState(500)
+
+  const handleCredit = () =>{
+    console.log('credit clicked');
+  }
+
   const [isActive, setIsActive] = useState({
     available: true,
     status: 'available'
@@ -26,7 +32,7 @@ function App() {
 
   return (
     <>
-      <Home handleActiveTab={handleActiveTab} isActive={isActive}></Home>
+      <Home handleActiveTab={handleActiveTab} isActive={isActive} handleCredit={handleCredit} credit={credit}></Home>
     </>
   )
 }

@@ -1,5 +1,5 @@
 import bannerLogo from '../../../public/assets/banner-main.png'
-const Banner = () => {
+const Banner = ({handleCredit}) => {
   return (
     <div>
       {/* <div className="bg-[url('https://ibb.co/mXx2BWH')] w-full h-32">
@@ -23,7 +23,7 @@ const Banner = () => {
             <p className='font-medium text-[#b3b3b3]'>Beyond Boundaries Beyond Limits</p>
           </div>
           <div className='inline-block border border-[#E7FE29] rounded-2xl'>
-            <button className='btn bg-[#E7FE29] text-black font-medium m-2'>Claim Free Credits</button>
+            <button onClick={()=>handleCredit()} className='btn bg-[#E7FE29] text-black font-medium m-2'>Claim Free Credits</button>
           </div>
         </div>
 
