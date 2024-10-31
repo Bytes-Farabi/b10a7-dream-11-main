@@ -18,7 +18,7 @@
           "rating": "Right-Hand-Bat",
           "battingStyle": "Right-Hand-Bat",
           "price": 8,
-          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+          "imageUrl": "https://i.ibb.co.com/fth0HYh/chris-pine.jpg"
       },
       {
           "id": 3,
@@ -28,7 +28,7 @@
           "rating": "Right-Hand-Bat",
           "battingStyle": "Right-Hand-Bat",
           "price": 9,
-          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+          "imageUrl": "https://i.ibb.co.com/4Wtg20p/moeen.webp"
       },
       {
           "id": 4,
@@ -38,7 +38,7 @@
           "rating": "Left-Hand-Bat",
           "battingStyle": "Left-Hand-Bat",
           "price": 10,
-          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+          "imageUrl": "https://i.ibb.co.com/BB9GYwm/ben-stock.jpg"
       },
       {
           "id": 5,
@@ -48,7 +48,7 @@
           "rating": "Right-Hand-Bat",
           "battingStyle": "Right-Hand-Bat",
           "price": 7,
-          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+          "imageUrl": "https://i.ibb.co.com/JKDWTcd/temba.png"
       },
       {
           "id": 6,
@@ -72,23 +72,23 @@
       },
       {
           "id": 8,
-          "name": "Joe Root",
-          "country": "England",
-          "role": "Batsman",
-          "rating": "Right-Hand-Bat",
-          "battingStyle": "Right-Hand-Bat",
+          "name": "Muhammad Shami",
+          "country": "India",
+          "role": "Bowler",
+          "rating": "Right-Hand-Bowl",
+          "battingStyle": "Right-Hand-Bowl",
           "price": 8,
-          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+          "imageUrl": "https://i.ibb.co.com/YRc9FFf/Mohammed-Shami-1.jpg"
       },
       {
           "id": 9,
-          "name": "Shakib Al Hasan",
+          "name": "Muhammad Ashraful",
           "country": "Bangladesh",
           "role": "All-Rounder",
           "rating": "Left-Hand-Bat",
           "battingStyle": "Left-Hand-Bat",
           "price": 9,
-          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+          "imageUrl": "https://i.ibb.co.com/RQ4DsSr/199535.jpg"
       },
       {
           "id": 10,
@@ -98,7 +98,7 @@
           "rating": "Right-Hand-Bat",
           "battingStyle": "Right-Hand-Bat",
           "price": 8,
-          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+          "imageUrl": "https://i.ibb.co.com/rcgKSPn/kanewilliamsonnzveng-1200x768-1024x576.webp"
       },
       {
           "id": 11,
@@ -108,7 +108,7 @@
           "rating": "Right-Hand-Bat",
           "battingStyle": "Right-Hand-Bat",
           "price": 9,
-          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+          "imageUrl": "https://i.ibb.co.com/vwfwj0g/0-Getty-Images-1713048001.webp"
       },
       {
           "id": 12,
@@ -118,7 +118,7 @@
           "rating": "Right-Hand-Bat",
           "battingStyle": "Right-Hand-Bat",
           "price": 9,
-          "imageUrl": "https://i.ibb.co.com/1K8h023/gleen.webp"
+          "imageUrl": "https://i.ibb.co.com/GvzL31C/6a4a67a2-77d8-4d1d-bb11-036906be53c4.jpg"
       }
   ]
 }
